@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './registerServiceWorker';
 import Board from './components/Board';
 
 ReactDOM.render(
-  <React.StrictMode><Board />
-  </React.StrictMode>,
+  <Board />,
   document.getElementById('root')
 );
 
