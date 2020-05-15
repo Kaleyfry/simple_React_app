@@ -7,9 +7,9 @@ function Board() {
         <div>
             <div className="div-board">
                 <div className="row">
-                    <Note />
-                    <Note />
-                    <Note />
+                    <Note title="My very first note" body="Body sample 1" />
+                    <Note title="My second note" body="Body sample 2" />
+                    <Note title="My last good note" body="Body sample 3" />
                 </div>
             </div>
             <div>
